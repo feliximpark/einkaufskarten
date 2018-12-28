@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Hind:700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SZ-Karte - Shopping in Dresden</title>
+    <script src="js/dresden_json.js"></script>
+</head>
+<body>
+
+<div id="container" class="container h-100 d-flex flex-column ">
+    <div id="headline-row" class="header row szgradient" >
+        <div class="col-3 col-md-3 headline align-self-center">
+            <a href="https://www.saechsische.de"><img src="/icons/logo_sz_neu.svg" id="sz-logo" class="img-fluid d-none d-md-block" alt="Logos von SZ-Online und der Sächsischen Zeitung"></a>
+        </div>
+        <div class="col-12 col-md-9 headline align-self-center" >
+            <h1 id="headline" style="color:white" class="headline text-center pt-2 d-none d-sm-block">Shopping & Service Dresden</h1>
+            <h1 id="headline-small" style="color:white" class="headline text-center pt-2 d-sm-none">Shopping in DD</h1>
+        </div>
+    </div>
+    <!-- Layout und Funktionen für größere Darstellung -->
+    <div id="search" class="main row flex-sm-fill">
+        <!-- Suchmaske und Ergebnisse für bigscreen -->
+        <div id="input" class="col-12 col-md-6 col-lg-4 map-overlay p-2">
+
+            <div class="input-group">
+                <input id='feat-filter' type="text" class="form-control border border-right-0" placeholder="
+                Was suchen Sie?" >
+                <div class="input-group-append">
+                    <button id = "search-button" class="btn btn-outline-secondary" type="button">Zurück</button>
+                </div>
+            </div>
+
+            <div id="filter-group" class="row d-none d-sm-flex"> <!-- nested row -->
+
+                    <div class="iconcontainer filter-group" data-value="Autos">
+                    <img src="../icons/autos2.png" class="icon_png" alt="Car-Icon"><p class="iconfont">Autos &<br>Werkstätten</p>
+                    </div>
+
+
+                    <div class="iconcontainer filter-group" data-value="Bauen">
+                    <img src="../icons/bauen2.png" class="icon_png" alt="Handwerk-Icon"><p class="iconfont">Bauen &<br>Renovieren</p>
+                    </div>
+
+                    <div class="iconcontainer filter-group" data-value="Dienstleistung">
+                    <img src="../icons/dienstleistung2.png" class="icon_png" alt="Car-Icon"><p class="iconfont">Dienst-<br>leistung</p>
+                    </div>
+
+                    <div class="iconcontainer filter-group" data-value="Elektrik">
+                    <img src="../icons/elektro2.png" class="icon_png" alt="Car-Icon"><p class="iconfont">Elektrik &<br>Elektronik</p>
+                    </div>
+
+                    <div class="iconcontainer filter-group" data-value="Gesundheit">
+                    <img src="../icons/gesundheit2.png" class="icon_png" alt="Car-Icon"><p class="iconfont">Gesundheit</p>
+                    </div>
+
+                    <div class="iconcontainer filter-group" data-value="Wohnen">
+                    <img src="../icons/wohnen2.png" class="icon_png" alt="Car-Icon"><p class="iconfont">Möbel &<br>Wohnen</p>
+                    </div>
+
+                    <div class="iconcontainer filter-group" data-value="Bildung">
+                    <img src="../icons/bildung2.png" class="icon_png" alt="Car-Icon"><p class="iconfont">Bildung</p>
+                    </div>
+
+
+                    <div id="alleButton" class="iconcontainer filter-group focus" data-value="Alle">
+                    <img src="../icons/alle2.png" class="icon_png" alt="Car-Icon"><p class="iconfont">Alle </b> Branchen</p>
+                    </div>
+
+
+
+            </div>
+
+
+
+            <div id='feature-listing' class='listing d-none d-md-block' ></div>
+
+        </div>
+
+
+
+    <div class="col-12 col-md-6 col-lg-8 p-2" id="map">
+        <div class='bbutton'><p>zurück</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
+

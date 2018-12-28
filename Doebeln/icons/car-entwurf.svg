@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 19 19"
+   height="19"
+   width="19"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="car-entwurf.svg">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>car-15.svg</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5592"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5594" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop5596" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5592"
+       id="radialGradient5602"
+       cx="7.4999997"
+       cy="7.25"
+       fx="7.4999997"
+       fy="7.25"
+       r="7.0000003"
+       gradientTransform="matrix(1.9159316,0,0,1.6710595,-4.9499949,-3.2274696)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="12.421053"
+     inkscape:cx="9.5"
+     inkscape:cy="9.5"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4">car-15.svg</title>
+  <rect
+     fill="none"
+     x="0"
+     y="0"
+     width="19"
+     height="19"
+     id="rect6" />
+  <path
+     d="M 21.873047,8.3791285 C 21.865384,6.9746247 20.955891,5.7570762 19.669726,5.4293451 l -2.663145,-6.5912403 0,0 0,0 0,0 c -0.146952,-0.37981 -0.494502,-0.628609 -0.881328,-0.6306433 l -13.4115217,0 c -0.3594287,0.00692 -0.6849455,0.2268281 -0.8430098,0.5696133 l 0,0 0,0 0,0 -2.70146364,6.631927 C -2.1239959,5.7385638 -3.0352129,6.9670977 -3.0340634,8.3791285 l 0,7.1201665 1.9159316,0 0,2.034334 c 0,1.123562 0.85776256,2.034333 1.91593156,2.034333 1.05816904,0 1.91593154,-0.910771 1.91593154,-2.034333 l 0,-2.034334 13.4115217,0 0,2.034334 c 0,1.123562 0.857762,2.034333 1.915931,2.034333 1.058169,0 1.915932,-0.910771 1.915932,-2.034333 l 0,-2.034334 1.915931,0 0,-7.1201665 z M 3.2885108,0.24179495 l 12.2619622,0 2.011728,5.08583345 -16.2854183,0 2.0117281,-5.08583345 z M 0.79779976,12.447795 c -1.058169,0 -1.91593156,-0.910771 -1.91593156,-2.034333 0,-1.1235625 0.85776256,-2.0343335 1.91593156,-2.0343335 1.05816904,0 1.91593154,0.910771 1.91593154,2.0343335 0,1.123562 -0.8577625,2.034333 -1.91593154,2.034333 z m 17.24338424,0 c -1.058169,0 -1.915931,-0.910771 -1.915931,-2.034333 0,-1.1235625 0.857762,-2.0343335 1.915931,-2.0343335 1.058169,0 1.915932,0.910771 1.915932,2.0343335 0,1.123562 -0.857763,2.034333 -1.915932,2.034333 z"
+     id="path8"
+     style="fill:#000000;stroke:url(#radialGradient5602);stroke-width:1.97424507;stroke-opacity:1"
+     inkscape:connector-curvature="0" />
+</svg>
